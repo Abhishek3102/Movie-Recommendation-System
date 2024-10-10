@@ -1,13 +1,13 @@
 {
     "version": 2,
     "functions": {
-      "app.py": {
+      "api/index.py": {
         "runtime": "python3.9"
       }
     },
     "builds": [
       {
-        "src": "app.py",
+        "src": "api/index.py",
         "use": "@vercel/python"
       }
     ]
